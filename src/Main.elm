@@ -197,9 +197,6 @@ update msg model =
         EventMoveTile maybeDirection ->
             case maybeDirection of
                 Just direction ->
-                    let
-                        _ = Debug.log "direction" direction
-                    in
                     ( model, Cmd.none )
                 Nothing ->
                     ( model, Cmd.none)
