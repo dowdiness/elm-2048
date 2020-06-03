@@ -16,7 +16,6 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "autoprefixer": "^9.6.1",
-    "cypress": "^3.4.0",
     "elm": "^0.19.1-2",
     "elm-hot": "^1.0.1",
     "netlify-cli": "^2.19.0",
@@ -35,9 +34,7 @@
     "build-img": "parcel build img/*",
     "build": "npm run build-img && parcel build index.html --no-cache",
     "test": "elm-test",
-    "test:watch": "elm-test --watch",
-    "cypress": "cypress run",
-    "cypress:open": "cypress open"
+    "test:watch": "elm-test --watch"
   },
   "repository": {
     "type": "git",
@@ -48,7 +45,6 @@
     "parcel",
     "tailwind",
     "purgecss",
-    "cypress",
     "netlify"
   ]
 }
